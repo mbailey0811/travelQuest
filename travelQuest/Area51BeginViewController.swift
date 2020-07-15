@@ -56,10 +56,12 @@ class Area51BeginViewController: UIViewController {
             let vc = segue.destination as! A51Decision2ViewController
             vc.a51Decision2InfoText = "You ran out of gas. You come across a map and a compass. Which one would you like to take?"
             vc.a51Decision2Op1Text = "Map 🗺"
+            vc.a51Decision2Op2Text = "Compass 🧭"
         } else if segue.identifier == "truckSegue" {
             let vc = segue.destination as! A51Decision2ViewController
-            vc.a51Decision2InfoText = "Truck scenario"
-            vc.a51Decision2Op2Text = "Compass 🧭"
+            vc.a51Decision2InfoText = "You come across a local who says he knows a shortcut. If you want to take the shortcut, you must take him with you. What will you choose?"
+            vc.a51Decision2Op1Text = "Take the shortcut ⏰"
+            vc.a51Decision2Op2Text = "Stay on the path 🗺"
         }
     }
 
