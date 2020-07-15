@@ -24,6 +24,7 @@ class A51Decision2ViewController: UIViewController {
         self.a51decision2Op1.setTitle(self.a51Decision2Op1Text, for: .normal)
         self.a51Decision2Op2.setTitle(self.a51Decision2Op2Text, for: .normal)
     }
+    //hello
     
     
     func assignbackground(){
