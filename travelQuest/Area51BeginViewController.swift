@@ -54,10 +54,12 @@ class Area51BeginViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "sportsCarSegue" {
             let vc = segue.destination as! A51Decision2ViewController
-            vc.a51Decision2InfoText = "Car scenario"
+            vc.a51Decision2InfoText = "You ran out of gas. You come across a map and a compass. Which one would you like to take?"
+            vc.a51Decision2Op1Text = "Map 🗺"
         } else if segue.identifier == "truckSegue" {
             let vc = segue.destination as! A51Decision2ViewController
             vc.a51Decision2InfoText = "Truck scenario"
+            vc.a51Decision2Op2Text = "Compass 🧭"
         }
     }
 

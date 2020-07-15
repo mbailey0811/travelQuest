@@ -326,6 +326,8 @@
                     <navigationItem key="navigationItem" id="CLi-BF-2J4"/>
                     <connections>
                         <outlet property="a51Decision2Info" destination="Lce-aH-flf" id="xGs-FO-6dI"/>
+                        <outlet property="a51Decision2Op2" destination="Lf2-Un-o5i" id="HAV-ay-LfK"/>
+                        <outlet property="a51decision2Op1" destination="NAT-6w-MHN" id="Aco-ym-IhK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ev6-YR-tNo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

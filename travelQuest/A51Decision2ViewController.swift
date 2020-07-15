@@ -11,12 +11,18 @@ import UIKit
 class A51Decision2ViewController: UIViewController {
     @IBOutlet weak var a51Decision2Info: UILabel!
     
+    @IBOutlet weak var a51decision2Op1: UIButton!
+    var a51Decision2Op1Text : String!
     var a51Decision2InfoText : String!
+    @IBOutlet weak var a51Decision2Op2: UIButton!
+    var a51Decision2Op2Text : String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         assignbackground()
         self.a51Decision2Info.text = self.a51Decision2InfoText
+        self.a51decision2Op1.setTitle(self.a51Decision2Op1Text, for: .normal)
+        self.a51Decision2Op2.setTitle(self.a51Decision2Op2Text, for: .normal)
     }
     
     
