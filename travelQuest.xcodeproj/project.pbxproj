@@ -14,6 +14,9 @@
 		5115297724BD6B63009CBF61 /* travelQuest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5115297524BD6B63009CBF61 /* travelQuest.xcdatamodeld */; };
 		5115297924BD6B66009CBF61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5115297824BD6B66009CBF61 /* Assets.xcassets */; };
 		5115297C24BD6B66009CBF61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5115297A24BD6B66009CBF61 /* LaunchScreen.storyboard */; };
+		51F2EE6D24BE246400EBA1D9 /* Area51BeginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2EE6C24BE246400EBA1D9 /* Area51BeginViewController.swift */; };
+		51F2EE6F24BE371300EBA1D9 /* A51Decision2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2EE6E24BE371300EBA1D9 /* A51Decision2ViewController.swift */; };
+		51F2EE7124BEA36800EBA1D9 /* AchievementsFinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2EE7024BEA36800EBA1D9 /* AchievementsFinalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		5115297824BD6B66009CBF61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5115297B24BD6B66009CBF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5115297D24BD6B66009CBF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51F2EE6C24BE246400EBA1D9 /* Area51BeginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area51BeginViewController.swift; sourceTree = "<group>"; };
+		51F2EE6E24BE371300EBA1D9 /* A51Decision2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A51Decision2ViewController.swift; sourceTree = "<group>"; };
+		51F2EE7024BEA36800EBA1D9 /* AchievementsFinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsFinalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				5115296C24BD6B63009CBF61 /* AppDelegate.swift */,
 				5115296E24BD6B63009CBF61 /* SceneDelegate.swift */,
 				5115297024BD6B63009CBF61 /* ViewController.swift */,
+				51F2EE6C24BE246400EBA1D9 /* Area51BeginViewController.swift */,
+				51F2EE6E24BE371300EBA1D9 /* A51Decision2ViewController.swift */,
+				51F2EE7024BEA36800EBA1D9 /* AchievementsFinalViewController.swift */,
 				5115297224BD6B63009CBF61 /* Main.storyboard */,
 				5115297824BD6B66009CBF61 /* Assets.xcassets */,
 				5115297A24BD6B66009CBF61 /* LaunchScreen.storyboard */,
@@ -141,7 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51F2EE6D24BE246400EBA1D9 /* Area51BeginViewController.swift in Sources */,
 				5115297724BD6B63009CBF61 /* travelQuest.xcdatamodeld in Sources */,
+				51F2EE7124BEA36800EBA1D9 /* AchievementsFinalViewController.swift in Sources */,
+				51F2EE6F24BE371300EBA1D9 /* A51Decision2ViewController.swift in Sources */,
 				5115297124BD6B63009CBF61 /* ViewController.swift in Sources */,
 				5115296D24BD6B63009CBF61 /* AppDelegate.swift in Sources */,
 				5115296F24BD6B63009CBF61 /* SceneDelegate.swift in Sources */,
