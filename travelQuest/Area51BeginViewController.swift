@@ -22,16 +22,22 @@ class Area51BeginViewController: UIViewController {
         super.viewDidLoad()
         intro1.layer.masksToBounds = true
         intro1.layer.cornerRadius = 5
+        
         popNYC.layer.masksToBounds = true
         popNYC.layer.cornerRadius = 5
+        
         infonyc.layer.masksToBounds = true
         infonyc.layer.cornerRadius = 15
+        
         decision1NYC.layer.masksToBounds = true
         decision1NYC.layer.cornerRadius = 15
+        
         sportsCarButton.layer.masksToBounds = true
         sportsCarButton.layer.cornerRadius = 15
+        
         bikeButton.layer.masksToBounds = true
         bikeButton.layer.cornerRadius = 15
+        
             assignbackground()
         
           }
@@ -54,14 +60,14 @@ class Area51BeginViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "sportsCarSegue" {
             let vc = segue.destination as! A51Decision2ViewController
-            vc.a51Decision2InfoText = "You ran out of gas. You come across a map and a compass. Which one would you like to take?"
+            vc.a51Decision2InfoText = "You ran out of gas, so you must hitchhike. You come across a map and a compass. Which one would you like to take?"
             vc.a51Decision2Op1Text = "Map 🗺"
             vc.a51Decision2Op2Text = "Compass 🧭"
         } else if segue.identifier == "truckSegue" {
             let vc = segue.destination as! A51Decision2ViewController
             vc.a51Decision2InfoText = "You come across a local who says he knows a shortcut. If you want to take the shortcut, you must take him with you. What will you choose?"
-            vc.a51Decision2Op1Text = "Take the shortcut ⏰"
-            vc.a51Decision2Op2Text = "Stay on the path 🗺"
+            vc.a51Decision2Op1Text = "Stay on the path 🗺"
+            vc.a51Decision2Op2Text = "Take the shortcut ⏰"
         }
     }
 

@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="travelQuest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="flipHorizontal" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="travelQuest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -123,6 +123,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="yb7-lt-UOh"/>
                     <connections>
                         <outlet property="chooseApocalypseGame" destination="8h5-Pe-kSl" id="omk-jF-1BO"/>
                         <outlet property="descriptionArea51" destination="hUc-ej-oOs" id="eOY-N9-AIp"/>
@@ -397,6 +398,9 @@
                                 <state key="normal" title="Button">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="m6q-kM-8Hk" kind="show" identifier="lancasterOp1Segue" id="Aq0-Qc-H2r"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lce-aH-flf">
                                 <rect key="frame" x="20" y="694" width="374" height="73"/>
@@ -411,6 +415,9 @@
                                 <state key="normal" title="Button">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="94M-oQ-ssa" kind="show" id="E8u-IC-F3I"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -439,11 +446,150 @@
                         <outlet property="a51Decision2Info" destination="Lce-aH-flf" id="xGs-FO-6dI"/>
                         <outlet property="a51Decision2Op2" destination="Lf2-Un-o5i" id="HAV-ay-LfK"/>
                         <outlet property="a51decision2Op1" destination="NAT-6w-MHN" id="Aco-ym-IhK"/>
+                        <outlet property="kansasPop" destination="5Qj-ko-TLR" id="wSg-1x-73l"/>
+                        <outlet property="welcomeKansas" destination="muh-Zn-rCX" id="0E7-xs-oMX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ev6-YR-tNo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="786.95652173913049" y="817.63392857142856"/>
+        </scene>
+        <!--Failure View Controller-->
+        <scene sceneID="XiS-TG-zbI">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="94M-oQ-ssa" customClass="FailureViewController" customModule="travelQuest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mQk-51-e4J">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FAILURE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F4V-MM-Q4D">
+                                <rect key="frame" x="25" y="64" width="364" height="41"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
+                                <color key="textColor" red="0.84202855830000001" green="1" blue="0.61169463400000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5wl-z8-FuL">
+                                <rect key="frame" x="60" y="605" width="294" height="236"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="5wl-z8-FuL" secondAttribute="height" multiplier="241:194" id="Vse-TN-pYR"/>
+                                </constraints>
+                                <color key="tintColor" red="0.84202855830000001" green="1" blue="0.61169463400000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" backgroundImage="house.fill" catalog="system">
+                                    <color key="titleColor" red="0.84202855830000001" green="1" blue="0.61169463400000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleShadowColor" red="0.84202855830000001" green="1" blue="0.61169463400000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="119-bR-kcp"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9oh-o9-fRe">
+                                <rect key="frame" x="-494" y="113" width="1402" height="160"/>
+                                <string key="text">Unfortunately, this decision delayed your journey and you ran out of time. You did not make it to Area 51. Click below to return home.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16656821969999999" green="0.53852164749999998" blue="0.68629461530000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="9oh-o9-fRe" firstAttribute="leading" secondItem="m1B-nE-4Sh" secondAttribute="leading" constant="30" id="0w8-wp-O9T"/>
+                            <constraint firstItem="F4V-MM-Q4D" firstAttribute="top" secondItem="m1B-nE-4Sh" secondAttribute="top" constant="20" id="Ozo-xc-Cj6"/>
+                            <constraint firstItem="m1B-nE-4Sh" firstAttribute="bottom" secondItem="5wl-z8-FuL" secondAttribute="bottom" constant="20" id="SMc-D9-CwW"/>
+                            <constraint firstItem="m1B-nE-4Sh" firstAttribute="trailing" secondItem="5wl-z8-FuL" secondAttribute="trailing" constant="60" id="Swk-Ix-yUn"/>
+                            <constraint firstItem="m1B-nE-4Sh" firstAttribute="trailing" secondItem="F4V-MM-Q4D" secondAttribute="trailing" constant="25" id="Ums-gM-25k"/>
+                            <constraint firstItem="5wl-z8-FuL" firstAttribute="leading" secondItem="m1B-nE-4Sh" secondAttribute="leading" constant="60" id="bvK-dB-1md"/>
+                            <constraint firstItem="m1B-nE-4Sh" firstAttribute="trailing" secondItem="9oh-o9-fRe" secondAttribute="trailing" constant="30" id="d7w-CZ-FnV"/>
+                            <constraint firstItem="F4V-MM-Q4D" firstAttribute="leading" secondItem="m1B-nE-4Sh" secondAttribute="leading" constant="25" id="pp0-WQ-L3q"/>
+                            <constraint firstItem="9oh-o9-fRe" firstAttribute="top" secondItem="F4V-MM-Q4D" secondAttribute="bottom" constant="20" id="vva-qO-Gbp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="m1B-nE-4Sh"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wLR-3D-nzR"/>
+                    <connections>
+                        <outlet property="explanationOfFail" destination="9oh-o9-fRe" id="vVm-RF-B5h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e7q-0p-Dhy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1583" y="818"/>
+        </scene>
+        <!--Decision3 View Controller-->
+        <scene sceneID="fpJ-id-YtP">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="m6q-kM-8Hk" customClass="A51Decision3ViewController" customModule="travelQuest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AAm-4V-Kdq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Population: 12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NPc-ht-wyl">
+                                <rect key="frame" x="125" y="85" width="164" height="21"/>
+                                <color key="backgroundColor" red="0.57008272410000005" green="0.62501162290000001" blue="0.76864540579999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85u-oF-LOf">
+                                <rect key="frame" x="10" y="792" width="192" height="30"/>
+                                <color key="backgroundColor" red="0.57008272410000005" green="0.62501162290000001" blue="0.76864540579999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="92Y-oB-sB2">
+                                <rect key="frame" x="212" y="792" width="192" height="30"/>
+                                <color key="backgroundColor" red="0.57008272410000005" green="0.62501162290000001" blue="0.76864540579999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T4n-7N-kKe">
+                                <rect key="frame" x="20" y="688" width="374" height="79"/>
+                                <color key="backgroundColor" red="0.57008272410000005" green="0.62501162290000001" blue="0.76864540579999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Wichita, KS!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGk-l9-X3n">
+                                <rect key="frame" x="75" y="64" width="264" height="21"/>
+                                <color key="backgroundColor" red="0.57008272410000005" green="0.62501162290000001" blue="0.76864540579999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="92Y-oB-sB2" firstAttribute="leading" secondItem="85u-oF-LOf" secondAttribute="trailing" constant="10" id="43R-I5-IGg"/>
+                            <constraint firstItem="92Y-oB-sB2" firstAttribute="height" secondItem="85u-oF-LOf" secondAttribute="height" id="95m-AU-V24"/>
+                            <constraint firstItem="sGk-l9-X3n" firstAttribute="top" secondItem="5JY-Lc-hzd" secondAttribute="top" constant="20" id="FXp-2s-H85"/>
+                            <constraint firstItem="5JY-Lc-hzd" firstAttribute="bottom" secondItem="92Y-oB-sB2" secondAttribute="bottom" constant="40" id="I0m-lU-EDH"/>
+                            <constraint firstItem="85u-oF-LOf" firstAttribute="leading" secondItem="5JY-Lc-hzd" secondAttribute="leading" constant="10" id="JOw-rH-Jyj"/>
+                            <constraint firstItem="NPc-ht-wyl" firstAttribute="leading" secondItem="5JY-Lc-hzd" secondAttribute="leading" constant="125" id="Jqj-Al-9bA"/>
+                            <constraint firstItem="5JY-Lc-hzd" firstAttribute="trailing" secondItem="NPc-ht-wyl" secondAttribute="trailing" constant="125" id="M4L-rI-mD5"/>
+                            <constraint firstItem="5JY-Lc-hzd" firstAttribute="trailing" secondItem="92Y-oB-sB2" secondAttribute="trailing" constant="10" id="MH9-E6-ujG"/>
+                            <constraint firstItem="85u-oF-LOf" firstAttribute="top" secondItem="T4n-7N-kKe" secondAttribute="bottom" constant="25" id="WXu-BK-G2i"/>
+                            <constraint firstItem="5JY-Lc-hzd" firstAttribute="trailing" secondItem="sGk-l9-X3n" secondAttribute="trailing" constant="75" id="dGb-ws-iEc"/>
+                            <constraint firstItem="T4n-7N-kKe" firstAttribute="leading" secondItem="5JY-Lc-hzd" secondAttribute="leading" constant="20" id="hwk-XS-kP7"/>
+                            <constraint firstItem="5JY-Lc-hzd" firstAttribute="bottom" secondItem="85u-oF-LOf" secondAttribute="bottom" constant="40" id="j4R-bN-aiR"/>
+                            <constraint firstItem="5JY-Lc-hzd" firstAttribute="trailing" secondItem="T4n-7N-kKe" secondAttribute="trailing" constant="20" id="mcj-pZ-rWt"/>
+                            <constraint firstItem="NPc-ht-wyl" firstAttribute="top" secondItem="sGk-l9-X3n" secondAttribute="bottom" id="q1H-DI-2ol"/>
+                            <constraint firstItem="sGk-l9-X3n" firstAttribute="leading" secondItem="5JY-Lc-hzd" secondAttribute="leading" constant="75" id="tCF-6Z-qKK"/>
+                            <constraint firstItem="92Y-oB-sB2" firstAttribute="width" secondItem="85u-oF-LOf" secondAttribute="width" id="vDn-Ou-kHq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5JY-Lc-hzd"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rwL-2O-Omb"/>
+                    <connections>
+                        <outlet property="a51KansasInfo" destination="T4n-7N-kKe" id="3jn-Qx-I7K"/>
+                        <outlet property="a51KansasOp1" destination="85u-oF-LOf" id="2l4-Id-Kpo"/>
+                        <outlet property="a51KansasOp2" destination="92Y-oB-sB2" id="Cb9-lv-aBI"/>
+                        <outlet property="kansasIntro" destination="sGk-l9-X3n" id="dOG-ez-qts"/>
+                        <outlet property="popKansas" destination="NPc-ht-wyl" id="7cR-No-Aly"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M3I-Lf-hzk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="786.95652173913049" y="1533.4821428571429"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -452,5 +598,6 @@
     <resources>
         <image name="Screen Shot 2020-07-14 at 1.31.22 PM" width="272.5" height="273"/>
         <image name="goButton" width="96" height="96"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
     </resources>
 </document>
