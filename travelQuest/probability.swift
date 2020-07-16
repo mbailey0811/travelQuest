@@ -11,6 +11,8 @@ import UIKit
 class probability: UITableViewController {
 
     var sum = 0
+    @IBOutlet weak var probability: UILabel!
+    
     @IBAction func car(_ sender: UIButton) {
         sum += 16
     }
