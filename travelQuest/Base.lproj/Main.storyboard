@@ -535,7 +535,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hTr-ud-OLg" kind="show" id="h1m-Xs-rh6"/>
+                                    <segue destination="hTr-ud-OLg" kind="show" identifier="kansasOp1Segue" id="h1m-Xs-rh6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="92Y-oB-sB2">
@@ -545,7 +545,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hTr-ud-OLg" kind="show" id="TAK-FE-nAa"/>
+                                    <segue destination="hTr-ud-OLg" kind="show" identifier="kansasOp2Segue" id="TAK-FE-nAa"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T4n-7N-kKe">
@@ -689,7 +689,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUK-d8-hGP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Area 51!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUK-d8-hGP">
                                 <rect key="frame" x="75" y="64" width="264" height="21"/>
                                 <color key="backgroundColor" red="0.57008272410000005" green="0.62501162290000001" blue="0.76864540579999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -697,7 +697,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8f-B2-9bS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Population: 25" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8f-B2-9bS">
                                 <rect key="frame" x="125" y="85" width="164" height="21"/>
                                 <color key="backgroundColor" red="0.57008272410000005" green="0.62501162290000001" blue="0.76864540579999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -705,8 +705,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r5T-wy-HjP">
-                                <rect key="frame" x="20" y="746" width="374" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r5T-wy-HjP">
+                                <rect key="frame" x="20" y="680" width="374" height="87"/>
                                 <color key="backgroundColor" red="0.57008272410000005" green="0.62501162290000001" blue="0.76864540579999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -748,10 +748,17 @@
                         <viewLayoutGuide key="safeArea" id="wq4-aA-UXx"/>
                     </view>
                     <navigationItem key="navigationItem" id="68x-Cu-wg7"/>
+                    <connections>
+                        <outlet property="area51DesicionInfor" destination="r5T-wy-HjP" id="lrM-zr-kaO"/>
+                        <outlet property="area51Info" destination="RUK-d8-hGP" id="7HP-y9-mlZ"/>
+                        <outlet property="area51Op1" destination="4GJ-Cl-Fvc" id="dnk-fQ-8jM"/>
+                        <outlet property="area51Op2" destination="K2L-zI-KFe" id="n1c-Su-dqT"/>
+                        <outlet property="area51Pop" destination="E8f-B2-9bS" id="qTX-yJ-0Tl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q18-Hu-RQb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="787" y="2940"/>
+            <point key="canvasLocation" x="786.95652173913049" y="2939.7321428571427"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

@@ -19,11 +19,33 @@ class A51Decision4ViewController: UIViewController {
     
     @IBOutlet weak var coloradoOp2: UIButton!
     
+    var coloradoInfoText : String!
+    var coloradoOp1Text : String!
+    var coloradoOp2Text : String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         assignbackground()
+        self.coloradoInfo.text = self.coloradoInfoText
+        self.coloradoOp1.setTitle(self.coloradoOp1Text, for: .normal)
+        self.coloradoOp2.setTitle(self.coloradoOp2Text, for: .normal)
+        
+        coloradoIntro.layer.masksToBounds = true
+        coloradoIntro.layer.cornerRadius = 5
+        
+        coloradoPop.layer.masksToBounds = true
+        coloradoPop.layer.cornerRadius = 5
+        
+        coloradoInfo.layer.masksToBounds = true
+        coloradoInfo.layer.cornerRadius = 15
+        
+        coloradoOp1.layer.masksToBounds = true
+        coloradoOp1.layer.cornerRadius = 15
+        
+        coloradoOp2.layer.masksToBounds = true
+        coloradoOp2.layer.cornerRadius = 15
 
-        // Do any additional setup after loading the view.
+        
     }
     func assignbackground(){
       let background = UIImage(named: "background4")
