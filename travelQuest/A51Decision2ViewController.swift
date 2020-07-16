@@ -22,6 +22,7 @@ class A51Decision2ViewController: UIViewController {
     var a51Decision2InfoText : String!
     @IBOutlet weak var a51Decision2Op2: UIButton!
     var a51Decision2Op2Text : String!
+    var carVal : MyVariables!
     
     @IBAction func c0a(_ sender: UIButton) {
     }
@@ -31,6 +32,8 @@ class A51Decision2ViewController: UIViewController {
     
     
     override func viewDidLoad() {
+        carVal = MyVariables()
+        print(carVal.player)
         super.viewDidLoad()
         assignbackground()
         self.a51Decision2Info.text = self.a51Decision2InfoText

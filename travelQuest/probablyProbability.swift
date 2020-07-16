@@ -9,4 +9,5 @@
 import Foundation
 struct MyVariables {
     var sum = 0
+    var player = ""
 }

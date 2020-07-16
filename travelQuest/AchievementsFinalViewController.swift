@@ -12,10 +12,10 @@ class AchievementsFinalViewController: UIViewController {
     
     @IBOutlet weak var probability: UILabel!
     
-   // global var sum: Int = 0
+   // just leave here for a bit
     
-
-    @IBAction func car(_ sender: UIButton) {
+    var carVal : MyVariables!
+  /*  @IBAction func car(_ sender: UIButton) {
         sum += 16
     }
     @IBAction func truck(_ sender: UIButton) {
@@ -48,7 +48,7 @@ class AchievementsFinalViewController: UIViewController {
     func update(){
         self.probability.text = "/(sum)"
     }
-
+*/
     override func viewDidLoad() {
         super.viewDidLoad()
 

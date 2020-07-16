@@ -19,6 +19,8 @@ class A51Decision4ViewController: UIViewController {
     
     @IBOutlet weak var coloradoOp2: UIButton!
     
+    var carVal : MyVariables!
+    
     var coloradoInfoText : String!
     var coloradoOp1Text : String!
     var coloradoOp2Text : String!

@@ -26,6 +26,7 @@ class A51Decision3ViewController: UIViewController {
     var a51KansasOp1Text : String!
     
     var a51KansasOp2Text : String!
+    var carVal : MyVariables!
     
     @IBAction func c1a(_ sender: UIButton) {
     }
