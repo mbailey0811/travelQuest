@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182D51BA24C0A450001C8C48 /* probability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D51B924C0A450001C8C48 /* probability.swift */; };
 		5115296D24BD6B63009CBF61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5115296C24BD6B63009CBF61 /* AppDelegate.swift */; };
 		5115296F24BD6B63009CBF61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5115296E24BD6B63009CBF61 /* SceneDelegate.swift */; };
 		5115297124BD6B63009CBF61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5115297024BD6B63009CBF61 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		182D51B924C0A450001C8C48 /* probability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = probability.swift; sourceTree = "<group>"; };
 		5115296924BD6B63009CBF61 /* travelQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = travelQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5115296C24BD6B63009CBF61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5115296E24BD6B63009CBF61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 		5115296B24BD6B63009CBF61 /* travelQuest */ = {
 			isa = PBXGroup;
 			children = (
+				182D51B924C0A450001C8C48 /* probability.swift */,
 				5115296C24BD6B63009CBF61 /* AppDelegate.swift */,
 				5115296E24BD6B63009CBF61 /* SceneDelegate.swift */,
 				5115297024BD6B63009CBF61 /* ViewController.swift */,
@@ -171,6 +174,7 @@
 				51F2EE7324BF5A8500EBA1D9 /* A51Decision3ViewController.swift in Sources */,
 				5115297124BD6B63009CBF61 /* ViewController.swift in Sources */,
 				5115296D24BD6B63009CBF61 /* AppDelegate.swift in Sources */,
+				182D51BA24C0A450001C8C48 /* probability.swift in Sources */,
 				51F2EE7724BFD23000EBA1D9 /* A51Decision4ViewController.swift in Sources */,
 				5115296F24BD6B63009CBF61 /* SceneDelegate.swift in Sources */,
 			);
