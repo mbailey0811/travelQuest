@@ -633,7 +633,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="dd9-Ul-wbK" kind="show" id="Bv8-eQ-o7e"/>
+                                    <segue destination="dd9-Ul-wbK" kind="show" identifier="coloradoOp1Segue" id="Bv8-eQ-o7e"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z9m-TJ-Adl">
@@ -643,7 +643,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="dd9-Ul-wbK" kind="show" id="fIS-ZI-QLr"/>
+                                    <segue destination="dd9-Ul-wbK" kind="show" identifier="coloradoOp2Segue" id="fIS-ZI-QLr"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -749,6 +749,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="68x-Cu-wg7"/>
                     <connections>
+                        <outlet property="area51DecisionInfo" destination="r5T-wy-HjP" id="JWq-qA-v5h"/>
                         <outlet property="area51DesicionInfor" destination="r5T-wy-HjP" id="lrM-zr-kaO"/>
                         <outlet property="area51Info" destination="RUK-d8-hGP" id="7HP-y9-mlZ"/>
                         <outlet property="area51Op1" destination="4GJ-Cl-Fvc" id="dnk-fQ-8jM"/>
@@ -762,7 +763,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Bv8-eQ-o7e"/>
+        <segue reference="fIS-ZI-QLr"/>
         <segue reference="TAK-FE-nAa"/>
         <segue reference="TwI-xA-uk3"/>
     </inferredMetricsTieBreakers>

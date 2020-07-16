@@ -59,14 +59,45 @@ class A51Decision4ViewController: UIViewController {
       self.view.sendSubviewToBack(imageView)
     }
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        
+        if segue.identifier == "coloradoOp1Segue" && coloradoInfoText == "" {
+            
+            let vc = segue.destination as! A51Decision5ViewController
+            vc.area51DecisionInfoText = ""
+            vc.area51Op1Text = ""
+            vc.area51Op2Text = ""
+            
+        }
+        else if segue.identifier == "coloradoOp2Segue" && coloradoInfoText == "" {
+            
+            let vc = segue.destination as! A51Decision5ViewController
+            vc.area51DecisionInfoText = ""
+            vc.area51Op1Text = ""
+            vc.area51Op2Text = ""
+            
+        }
+        else if segue.identifier == "coloradoOp1Segue" && coloradoInfoText == "" {
+            
+            let vc = segue.destination as! A51Decision5ViewController
+            vc.area51DecisionInfoText = ""
+            vc.area51Op1Text = ""
+            vc.area51Op2Text = ""
+            
+        }
+        else if segue.identifier == "coloradoOp2Segue" && coloradoInfoText == "" {
+            
+            let vc = segue.destination as! A51Decision5ViewController
+            vc.area51DecisionInfoText = ""
+            vc.area51Op1Text = ""
+            vc.area51Op2Text = ""
+            
+        }
     }
-    */
+    
 
 }

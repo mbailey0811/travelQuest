@@ -13,6 +13,7 @@ class A51Decision5ViewController: UIViewController {
     
     @IBOutlet weak var area51Pop: UILabel!
     
+   
     @IBOutlet weak var area51DecisionInfo: UILabel!
     
     @IBOutlet weak var area51Op1: UIButton!
