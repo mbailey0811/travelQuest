@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182D51BE24C0C295001C8C48 /* probablyProbability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D51BD24C0C295001C8C48 /* probablyProbability.swift */; };
 		5115296D24BD6B63009CBF61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5115296C24BD6B63009CBF61 /* AppDelegate.swift */; };
 		5115296F24BD6B63009CBF61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5115296E24BD6B63009CBF61 /* SceneDelegate.swift */; };
 		5115297124BD6B63009CBF61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5115297024BD6B63009CBF61 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		182D51BD24C0C295001C8C48 /* probablyProbability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = probablyProbability.swift; sourceTree = "<group>"; };
 		5115296924BD6B63009CBF61 /* travelQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = travelQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5115296C24BD6B63009CBF61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5115296E24BD6B63009CBF61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				51F2EE7624BFD23000EBA1D9 /* A51Decision4ViewController.swift */,
 				51F2EE7424BFA5B400EBA1D9 /* FailureViewController.swift */,
 				51F2EE7024BEA36800EBA1D9 /* AchievementsFinalViewController.swift */,
+				182D51BD24C0C295001C8C48 /* probablyProbability.swift */,
 				5115297224BD6B63009CBF61 /* Main.storyboard */,
 				5115297824BD6B66009CBF61 /* Assets.xcassets */,
 				5115297A24BD6B66009CBF61 /* LaunchScreen.storyboard */,
@@ -170,6 +173,7 @@
 				51F2EE6F24BE371300EBA1D9 /* A51Decision2ViewController.swift in Sources */,
 				51F2EE7324BF5A8500EBA1D9 /* A51Decision3ViewController.swift in Sources */,
 				5115297124BD6B63009CBF61 /* ViewController.swift in Sources */,
+				182D51BE24C0C295001C8C48 /* probablyProbability.swift in Sources */,
 				5115296D24BD6B63009CBF61 /* AppDelegate.swift in Sources */,
 				51F2EE7724BFD23000EBA1D9 /* A51Decision4ViewController.swift in Sources */,
 				5115296F24BD6B63009CBF61 /* SceneDelegate.swift in Sources */,

@@ -18,6 +18,17 @@ class Area51BeginViewController: UIViewController {
     
     @IBOutlet weak var bikeButton: UIButton!
     @IBOutlet weak var sportsCarButton: UIButton!
+    
+    var carVal : MyVariables!
+    
+    @IBAction func car(_ sender: UIButton) {
+       sum += 17
+    }
+    
+    @IBAction func truck(_ sender: UIButton) {
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         intro1.layer.masksToBounds = true
@@ -39,6 +50,8 @@ class Area51BeginViewController: UIViewController {
         bikeButton.layer.cornerRadius = 15
         
             assignbackground()
+        
+        carVal = MyVariables()
         
           }
     func assignbackground(){
@@ -63,6 +76,7 @@ class Area51BeginViewController: UIViewController {
             vc.a51Decision2InfoText = "You ran out of gas, so you must hitchhike. You come across a map and a compass. Which one would you like to take?"
             vc.a51Decision2Op1Text = "Map 🗺"
             vc.a51Decision2Op2Text = "Compass 🧭"
+            
         } else if segue.identifier == "truckSegue" {
             let vc = segue.destination as! A51Decision2ViewController
             vc.a51Decision2InfoText = "You come across a local who says he knows a shortcut. If you want to take the shortcut, you must take him with you. What will you choose?"

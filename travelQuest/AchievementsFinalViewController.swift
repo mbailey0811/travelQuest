@@ -10,9 +10,11 @@ import UIKit
 
 class AchievementsFinalViewController: UIViewController {
     
-    var sum = 0
     @IBOutlet weak var probability: UILabel!
     
+   // global var sum: Int = 0
+    
+
     @IBAction func car(_ sender: UIButton) {
         sum += 16
     }

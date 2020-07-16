@@ -27,6 +27,12 @@ class A51Decision3ViewController: UIViewController {
     
     var a51KansasOp2Text : String!
     
+    @IBAction func c1a(_ sender: UIButton) {
+    }
+    
+    @IBAction func c1b(_ sender: UIButton) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         assignbackground()

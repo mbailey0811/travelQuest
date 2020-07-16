@@ -23,6 +23,13 @@ class A51Decision2ViewController: UIViewController {
     @IBOutlet weak var a51Decision2Op2: UIButton!
     var a51Decision2Op2Text : String!
     
+    @IBAction func c0a(_ sender: UIButton) {
+    }
+    
+    @IBAction func c0b(_ sender: UIButton) {
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         assignbackground()

@@ -15,6 +15,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var goToArea51Story: UIButton!
     
     @IBOutlet weak var chooseApocalypseGame: UIButton!
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         userGreetingHomePage.isHidden = true

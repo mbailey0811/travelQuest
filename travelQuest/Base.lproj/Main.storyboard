@@ -182,6 +182,7 @@
                                 </state>
                                 <connections>
                                     <action selector="truck:" destination="ydx-fl-2RX" eventType="touchUpInside" id="S8q-aJ-Pav"/>
+                                    <action selector="truck:" destination="woF-pN-uwE" eventType="touchUpInside" id="fBu-SK-5T1"/>
                                     <segue destination="h1M-45-IoX" kind="show" identifier="truckSegue" id="TwI-xA-uk3"/>
                                 </connections>
                             </button>
@@ -203,6 +204,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="car:" destination="woF-pN-uwE" eventType="touchUpInside" id="D2x-35-gZY"/>
                                     <action selector="car:" destination="ydx-fl-2RX" eventType="touchUpInside" id="X5S-LA-6v9"/>
                                     <segue destination="h1M-45-IoX" kind="show" identifier="sportsCarSegue" id="bfI-DD-8AI"/>
                                 </connections>
@@ -235,6 +237,7 @@
                     <navigationItem key="navigationItem" id="5zu-rG-cBu"/>
                     <connections>
                         <outlet property="bikeButton" destination="wJR-nl-H3u" id="zVZ-Oo-sJl"/>
+                        <outlet property="car" destination="0Kq-oA-FYX" id="zt4-sc-UEs"/>
                         <outlet property="decision1NYC" destination="8wx-g2-YGi" id="BeE-HU-YIN"/>
                         <outlet property="infonyc" destination="cte-Th-rTX" id="ZfF-LZ-33r"/>
                         <outlet property="intro1" destination="zBC-FA-IFx" id="u6t-3O-rQe"/>
@@ -420,6 +423,7 @@
                                 </state>
                                 <connections>
                                     <action selector="c0a:" destination="7tq-Ra-aBx" eventType="touchUpInside" id="nfL-Td-18l"/>
+                                    <action selector="c0a:" destination="h1M-45-IoX" eventType="touchUpInside" id="pih-Ll-3OC"/>
                                     <segue destination="m6q-kM-8Hk" kind="show" identifier="lancasterOp1Segue" id="Aq0-Qc-H2r"/>
                                 </connections>
                             </button>
@@ -438,6 +442,7 @@
                                 </state>
                                 <connections>
                                     <action selector="c0b:" destination="7tq-Ra-aBx" eventType="touchUpInside" id="Eb6-R6-bhh"/>
+                                    <action selector="c0b:" destination="h1M-45-IoX" eventType="touchUpInside" id="zVD-RN-Mjr"/>
                                     <segue destination="94M-oQ-ssa" kind="show" id="E8u-IC-F3I"/>
                                 </connections>
                             </button>
@@ -559,6 +564,7 @@
                                 </state>
                                 <connections>
                                     <action selector="c1a:" destination="h08-P7-VzV" eventType="touchUpInside" id="RKK-KX-M40"/>
+                                    <action selector="c1a:" destination="m6q-kM-8Hk" eventType="touchUpInside" id="tsd-u4-Uog"/>
                                     <segue destination="hTr-ud-OLg" kind="show" identifier="kansasOp1Segue" id="h1m-Xs-rh6"/>
                                 </connections>
                             </button>
@@ -570,6 +576,7 @@
                                 </state>
                                 <connections>
                                     <action selector="c1b:" destination="h08-P7-VzV" eventType="touchUpInside" id="XoS-ei-8wi"/>
+                                    <action selector="c1b:" destination="m6q-kM-8Hk" eventType="touchUpInside" id="eQc-ap-opP"/>
                                     <segue destination="hTr-ud-OLg" kind="show" identifier="kansasOp2Segue" id="TAK-FE-nAa"/>
                                 </connections>
                             </button>
@@ -659,6 +666,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="c2a:" destination="hTr-ud-OLg" eventType="touchUpInside" id="4Y5-Pt-0kf"/>
                                     <action selector="c2a:" destination="dpq-Jn-ZyZ" eventType="touchUpInside" id="ihF-zd-DSH"/>
                                     <segue destination="dd9-Ul-wbK" kind="show" identifier="coloradoOp1Segue" id="Bv8-eQ-o7e"/>
                                 </connections>
@@ -670,6 +678,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="c2b:" destination="hTr-ud-OLg" eventType="touchUpInside" id="0UK-pB-8ni"/>
                                     <action selector="c2b:" destination="dpq-Jn-ZyZ" eventType="touchUpInside" id="taq-by-gZE"/>
                                     <segue destination="dd9-Ul-wbK" kind="show" identifier="coloradoOp2Segue" id="fIS-ZI-QLr"/>
                                 </connections>
@@ -749,6 +758,7 @@
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="c3b:" destination="ftH-eq-Zvy" eventType="touchUpInside" id="iQq-1f-1Pg"/>
+                                    <action selector="c4b:" destination="dd9-Ul-wbK" eventType="touchUpInside" id="O5r-Fd-e4A"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4GJ-Cl-Fvc">
@@ -758,6 +768,7 @@
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="c3a:" destination="ftH-eq-Zvy" eventType="touchUpInside" id="mgl-m2-CFD"/>
+                                    <action selector="c4a:" destination="dd9-Ul-wbK" eventType="touchUpInside" id="9KN-kX-5As"/>
                                 </connections>
                             </button>
                         </subviews>
