@@ -19,17 +19,12 @@ class A51Decision4ViewController: UIViewController {
     
     @IBOutlet weak var coloradoOp2: UIButton!
     
-    var carVal : MyVariables!
+    
     
     var coloradoInfoText : String!
     var coloradoOp1Text : String!
     var coloradoOp2Text : String!
     
-    @IBAction func c2a(_ sender: UIButton) {
-    }
-    
-    @IBAction func c2b(_ sender: UIButton) {
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

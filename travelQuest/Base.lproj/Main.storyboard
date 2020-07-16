@@ -87,7 +87,7 @@
                                 </constraints>
                                 <state key="normal" title="Let's Go!" image="goButton"/>
                                 <connections>
-                                    <segue destination="woF-pN-uwE" kind="show" id="jbh-UB-o86"/>
+                                    <segue destination="woF-pN-uwE" kind="show" id="UhQ-jO-AiS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -207,6 +207,14 @@
                                     <action selector="car:" destination="woF-pN-uwE" eventType="touchUpInside" id="D2x-35-gZY"/>
                                     <action selector="car:" destination="ydx-fl-2RX" eventType="touchUpInside" id="X5S-LA-6v9"/>
                                     <segue destination="h1M-45-IoX" kind="show" identifier="sportsCarSegue" id="bfI-DD-8AI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mr0-rF-IPm">
+                                <rect key="frame" x="293" y="629" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="next"/>
+                                <connections>
+                                    <action selector="next:" destination="woF-pN-uwE" eventType="touchUpInside" id="ecR-oC-UrG"/>
                                 </connections>
                             </button>
                         </subviews>

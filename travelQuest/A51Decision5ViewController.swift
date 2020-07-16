@@ -25,13 +25,7 @@ class A51Decision5ViewController: UIViewController {
     var area51Op1Text : String!
     var area51Op2Text : String!
     
-    var carVal : MyVariables!
     
-    @IBAction func c4a(_ sender: UIButton) {
-    }
-    
-    @IBAction func c4b(_ sender: UIButton) {
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
