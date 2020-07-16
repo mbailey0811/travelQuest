@@ -20,7 +20,7 @@
 		51F2EE7324BF5A8500EBA1D9 /* A51Decision3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2EE7224BF5A8500EBA1D9 /* A51Decision3ViewController.swift */; };
 		51F2EE7524BFA5B400EBA1D9 /* FailureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2EE7424BFA5B400EBA1D9 /* FailureViewController.swift */; };
 		51F2EE7724BFD23000EBA1D9 /* A51Decision4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2EE7624BFD23000EBA1D9 /* A51Decision4ViewController.swift */; };
-		51F2EE7924BFD24300EBA1D9 /* A51Decision5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2EE7824BFD24300EBA1D9 /* A51Decision5ViewController.swift */; };
+		51F2EE7B24BFE02F00EBA1D9 /* A51Decision5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2EE7A24BFE02F00EBA1D9 /* A51Decision5ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +39,7 @@
 		51F2EE7224BF5A8500EBA1D9 /* A51Decision3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A51Decision3ViewController.swift; sourceTree = "<group>"; };
 		51F2EE7424BFA5B400EBA1D9 /* FailureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailureViewController.swift; sourceTree = "<group>"; };
 		51F2EE7624BFD23000EBA1D9 /* A51Decision4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A51Decision4ViewController.swift; sourceTree = "<group>"; };
-		51F2EE7824BFD24300EBA1D9 /* A51Decision5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A51Decision5ViewController.swift; sourceTree = "<group>"; };
+		51F2EE7A24BFE02F00EBA1D9 /* A51Decision5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A51Decision5ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,6 @@
 				51F2EE6E24BE371300EBA1D9 /* A51Decision2ViewController.swift */,
 				51F2EE7224BF5A8500EBA1D9 /* A51Decision3ViewController.swift */,
 				51F2EE7624BFD23000EBA1D9 /* A51Decision4ViewController.swift */,
-				51F2EE7824BFD24300EBA1D9 /* A51Decision5ViewController.swift */,
 				51F2EE7424BFA5B400EBA1D9 /* FailureViewController.swift */,
 				51F2EE7024BEA36800EBA1D9 /* AchievementsFinalViewController.swift */,
 				5115297224BD6B63009CBF61 /* Main.storyboard */,
@@ -87,6 +86,7 @@
 				5115297A24BD6B66009CBF61 /* LaunchScreen.storyboard */,
 				5115297D24BD6B66009CBF61 /* Info.plist */,
 				5115297524BD6B63009CBF61 /* travelQuest.xcdatamodeld */,
+				51F2EE7A24BFE02F00EBA1D9 /* A51Decision5ViewController.swift */,
 			);
 			path = travelQuest;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 				51F2EE6D24BE246400EBA1D9 /* Area51BeginViewController.swift in Sources */,
 				5115297724BD6B63009CBF61 /* travelQuest.xcdatamodeld in Sources */,
 				51F2EE7124BEA36800EBA1D9 /* AchievementsFinalViewController.swift in Sources */,
-				51F2EE7924BFD24300EBA1D9 /* A51Decision5ViewController.swift in Sources */,
+				51F2EE7B24BFE02F00EBA1D9 /* A51Decision5ViewController.swift in Sources */,
 				51F2EE7524BFA5B400EBA1D9 /* FailureViewController.swift in Sources */,
 				51F2EE6F24BE371300EBA1D9 /* A51Decision2ViewController.swift in Sources */,
 				51F2EE7324BF5A8500EBA1D9 /* A51Decision3ViewController.swift in Sources */,
