@@ -181,6 +181,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="truck:" destination="ydx-fl-2RX" eventType="touchUpInside" id="S8q-aJ-Pav"/>
                                     <segue destination="h1M-45-IoX" kind="show" identifier="truckSegue" id="TwI-xA-uk3"/>
                                 </connections>
                             </button>
@@ -202,6 +203,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="car:" destination="ydx-fl-2RX" eventType="touchUpInside" id="X5S-LA-6v9"/>
                                     <segue destination="h1M-45-IoX" kind="show" identifier="sportsCarSegue" id="bfI-DD-8AI"/>
                                 </connections>
                             </button>
@@ -241,6 +243,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IHj-Pc-DzG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="ydx-fl-2RX" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="786.95652173913049" y="117.85714285714285"/>
         </scene>
@@ -399,6 +402,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="c0a:" destination="7tq-Ra-aBx" eventType="touchUpInside" id="nfL-Td-18l"/>
                                     <segue destination="m6q-kM-8Hk" kind="show" identifier="lancasterOp1Segue" id="Aq0-Qc-H2r"/>
                                 </connections>
                             </button>
@@ -416,6 +420,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="c0b:" destination="7tq-Ra-aBx" eventType="touchUpInside" id="Eb6-R6-bhh"/>
                                     <segue destination="94M-oQ-ssa" kind="show" id="E8u-IC-F3I"/>
                                 </connections>
                             </button>
@@ -451,6 +456,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ev6-YR-tNo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="7tq-Ra-aBx" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="786.95652173913049" y="817.63392857142856"/>
         </scene>
