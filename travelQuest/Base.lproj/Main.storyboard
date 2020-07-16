@@ -669,6 +669,13 @@
                         <viewLayoutGuide key="safeArea" id="iaI-bb-eOe"/>
                     </view>
                     <navigationItem key="navigationItem" id="XdE-WZ-9Wv"/>
+                    <connections>
+                        <outlet property="coloradoInfo" destination="vGR-iv-gVs" id="Tiy-gn-sUk"/>
+                        <outlet property="coloradoIntro" destination="wTu-Dq-Cad" id="alS-NM-jU8"/>
+                        <outlet property="coloradoOp1" destination="vgD-8j-Afo" id="HkX-mx-qgA"/>
+                        <outlet property="coloradoOp2" destination="z9m-TJ-Adl" id="Ex7-hT-JbT"/>
+                        <outlet property="coloradoPop" destination="4AJ-xk-izw" id="kjJ-hc-yAa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xXz-K2-MBH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
