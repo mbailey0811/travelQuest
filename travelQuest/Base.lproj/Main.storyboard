@@ -541,6 +541,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="c1a:" destination="h08-P7-VzV" eventType="touchUpInside" id="RKK-KX-M40"/>
                                     <segue destination="hTr-ud-OLg" kind="show" identifier="kansasOp1Segue" id="h1m-Xs-rh6"/>
                                 </connections>
                             </button>
@@ -551,6 +552,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="c1b:" destination="h08-P7-VzV" eventType="touchUpInside" id="XoS-ei-8wi"/>
                                     <segue destination="hTr-ud-OLg" kind="show" identifier="kansasOp2Segue" id="TAK-FE-nAa"/>
                                 </connections>
                             </button>
@@ -600,6 +602,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M3I-Lf-hzk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="h08-P7-VzV" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="786.95652173913049" y="1533.4821428571429"/>
         </scene>
@@ -639,6 +642,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="c2a:" destination="dpq-Jn-ZyZ" eventType="touchUpInside" id="ihF-zd-DSH"/>
                                     <segue destination="dd9-Ul-wbK" kind="show" identifier="coloradoOp1Segue" id="Bv8-eQ-o7e"/>
                                 </connections>
                             </button>
@@ -649,6 +653,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="c2b:" destination="dpq-Jn-ZyZ" eventType="touchUpInside" id="taq-by-gZE"/>
                                     <segue destination="dd9-Ul-wbK" kind="show" identifier="coloradoOp2Segue" id="fIS-ZI-QLr"/>
                                 </connections>
                             </button>
@@ -684,6 +689,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xXz-K2-MBH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="dpq-Jn-ZyZ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="787" y="2221"/>
         </scene>
@@ -724,12 +730,18 @@
                                 <color key="backgroundColor" red="0.57008272410000005" green="0.62501162290000001" blue="0.76864540579999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="c3b:" destination="ftH-eq-Zvy" eventType="touchUpInside" id="iQq-1f-1Pg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4GJ-Cl-Fvc">
                                 <rect key="frame" x="10" y="792" width="192" height="30"/>
                                 <color key="backgroundColor" red="0.57008272410000005" green="0.62501162290000001" blue="0.76864540579999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="c3a:" destination="ftH-eq-Zvy" eventType="touchUpInside" id="mgl-m2-CFD"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -764,6 +776,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q18-Hu-RQb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="ftH-eq-Zvy" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="786.95652173913049" y="2939.7321428571427"/>
         </scene>

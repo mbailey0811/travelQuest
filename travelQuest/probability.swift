@@ -23,6 +23,24 @@ class probability: UITableViewController {
     @IBAction func c0b(_ sender: UIButton) {
         sum += 12
     }
+    @IBAction func c1a(_ sender: UIButton) {
+        sum += 7
+    }
+    @IBAction func c1b(_ sender: UIButton) {
+        sum += 19
+    }
+    @IBAction func c2a(_ sender: UIButton) {
+        sum += 2
+    }
+    @IBAction func c2b(_ sender: UIButton) {
+        sum += 16
+    }
+    @IBAction func c3a(_ sender: UIButton) {
+        sum += 1
+    }
+    @IBAction func c3b(_ sender: UIButton) {
+        sum += 20
+    }
     
     
     
